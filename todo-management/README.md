@@ -1,4 +1,4 @@
-# Todo Management System for Claude Code
+# Todo Management System for OpenCode
 
 Capture ideas mid-conversation without derailing your current work.
 
@@ -64,7 +64,7 @@ Lists todos, lets you select one, loads full context, and removes it from the li
 - "Need to investigate..." → logged with file paths
 
 **Resume with full context:**
-- Claude gets the full picture weeks later
+- OpenCode gets the full picture weeks later
 - No "what was I thinking?" moments
 - Exact files, line numbers, and reasoning intact
 
@@ -73,8 +73,8 @@ Lists todos, lets you select one, loads full context, and removes it from the li
 **Install globally** - these commands work in any directory:
 
 ```bash
-cp add-to-todos.md ~/.claude/commands/
-cp check-todos.md ~/.claude/commands/
+cp add-to-todos.md ~/.config/opencode/command/
+cp check-todos.md ~/.config/opencode/command/
 ```
 
 Once installed, the commands are available everywhere. Each project gets its own `TO-DOS.md` in its working directory - todos are captured per-project automatically.
@@ -84,7 +84,7 @@ Once installed, the commands are available everywhere. Each project gets its own
 **Mid-conversation capture:**
 ```
 You: "Fix the login redirect bug"
-Claude: [investigating auth.ts, finds the issue]
+OpenCode: [investigating auth.ts, finds the issue]
 You: "Actually, I notice the error handling here is messy too.
       Let's just fix the redirect for now."
 You: /add-to-todos refactor error handling
@@ -104,7 +104,7 @@ Outstanding Todos:
 
 Reply with number: 1
 
-Claude loads:
+OpenCode loads:
 - **Refactor error handling in auth flow** - Error handling in
   authentication is inconsistent and hard to debug. **Problem:**
   Try-catch blocks scattered across auth.ts, no centralized error
@@ -119,7 +119,7 @@ Claude loads:
 
 **Global (install once, use everywhere):**
 ```
-~/.claude/commands/
+~/.config/opencode/command/
   add-to-todos.md        # Add todo command
   check-todos.md         # Check/select todo command
 ```

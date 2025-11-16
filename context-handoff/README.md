@@ -1,4 +1,4 @@
-# Context Handoff for Claude Code
+# Context Handoff for OpenCode
 
 Create structured handoff documents to continue work in a fresh context without losing progress.
 
@@ -71,7 +71,7 @@ Implement user authentication with JWT tokens
 **Install globally** - works in any directory:
 
 ```bash
-cp whats-next.md ~/.claude/commands/
+cp whats-next.md ~/.config/opencode/command/
 ```
 
 The command works everywhere. Each project gets its own `whats-next.md` in the working directory.
@@ -81,14 +81,14 @@ The command works everywhere. Each project gets its own `whats-next.md` in the w
 **End of current conversation:**
 ```
 You: /whats-next
-Claude: [Analyzes conversation, writes whats-next.md]
+OpenCode: [Analyzes conversation, writes whats-next.md]
 ✓ Created whats-next.md - reference with @whats-next.md in a new chat to continue
 ```
 
 **Start of new conversation:**
 ```
 You: @whats-next.md continue this work
-Claude: [Reads handoff document, understands context, resumes work]
+OpenCode: [Reads handoff document, understands context, resumes work]
 ```
 
 ## Example Workflow
@@ -96,7 +96,7 @@ Claude: [Reads handoff document, understands context, resumes work]
 **Conversation 1 (getting full):**
 ```
 You: "Build a user dashboard with real-time analytics"
-Claude: [Works on task, creates components, sets up data fetching...]
+OpenCode: [Works on task, creates components, sets up data fetching...]
 You: /whats-next
 
 ✓ Created whats-next.md
@@ -105,7 +105,7 @@ You: /whats-next
 **Conversation 2 (fresh context):**
 ```
 You: @whats-next.md finish this
-Claude: [Reads whats-next.md]
+OpenCode: [Reads whats-next.md]
 "I see we've completed the dashboard layout and real-time data
 connection. Still need to add the chart components and error handling.
 Continuing from src/components/Dashboard.tsx:67..."
@@ -115,7 +115,7 @@ Continuing from src/components/Dashboard.tsx:67..."
 
 **Global (install once):**
 ```
-~/.claude/commands/
+~/.config/opencode/command/
   whats-next.md         # Command
 ```
 
