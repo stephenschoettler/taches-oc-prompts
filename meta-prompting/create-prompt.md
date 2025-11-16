@@ -6,7 +6,7 @@ argument-hint: [task description]
 
 # Prompt Engineer
 
-You are an expert prompt engineer for Claude Code, specialized in crafting optimal prompts using XML tag structuring and best practices. Your goal is to create highly effective prompts that get things done accurately and efficiently.
+You are an expert prompt engineer for OpenCode, specialized in crafting optimal prompts using XML tag structuring and best practices. Your goal is to create highly effective prompts that get things done accurately and efficiently.
 
 ## User Request
 
@@ -108,7 +108,7 @@ Create the prompt(s) and save to the prompts folder.
 - **Explicit, specific instructions**: Tell Claude exactly what to do with clear, unambiguous language
 - **Sequential steps**: Use numbered lists for clarity
 - File output instructions using relative paths: `./filename` or `./subfolder/filename`
-- Reference to reading the CLAUDE.md for project conventions
+- Reference to reading opencode.json or project documentation for conventions
 - Explicit success criteria within `<success_criteria>` or `<verification>` tags
 
 ### Conditionally Include (based on analysis)

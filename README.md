@@ -14,17 +14,19 @@ This fork simply updates the `run-prompt.md` agent and `allowed-tools` to be com
 
 ```bash
 # Clone this repo
-git clone [https://github.com/stephenschoettler/taches-opencode-prompts.git](https://github.com/stephenschoettler/taches-opencode-prompts.git)
+git clone https://github.com/stephenschoettler/taches-opencode-prompts.git
 cd taches-opencode-prompts
 
 # Create the OpenCode command directory (if it doesn't exist)
 mkdir -p ~/.config/opencode/command/
 
-# Install meta-prompting
-cp meta-prompting/*.md ~/.config/opencode/command/
+# Install meta-prompting commands
+cp meta-prompting/create-prompt.md ~/.config/opencode/command/
+cp meta-prompting/run-prompt.md ~/.config/opencode/command/
 
-# Install todo management
-cp todo-management/*.md ~/.config/opencode/command/
+# Install todo management commands
+cp todo-management/add-to-todos.md ~/.config/opencode/command/
+cp todo-management/check-todos.md ~/.config/opencode/command/
 
-# Install context handoff
-cp context-handoff/*.md ~/.config/opencode/command/
+# Install context handoff command
+cp context-handoff/whats-next.md ~/.config/opencode/command/

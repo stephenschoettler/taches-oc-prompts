@@ -1,6 +1,6 @@
 # Meta-Prompting System for OpenCode
 
-A systematic approach to building complex software with Claude Code by delegating prompt engineering to Claude itself.
+A systematic approach to building complex software with OpenCode by delegating prompt engineering to OpenCode itself.
 
 ## The Problem
 
@@ -14,7 +14,7 @@ When building complex features, most people either:
 
 This system separates **analysis** from **execution**:
 
-1. **Analysis Phase** (main context): Tell Claude what you want in natural language. It asks clarifying questions, analyzes your codebase, and generates a rigorous, specification-grade prompt.
+1. **Analysis Phase** (main context): Tell OpenCode what you want in natural language. It asks clarifying questions, analyzes your codebase, and generates a rigorous, specification-grade prompt.
 
 2. **Execution Phase** (fresh sub-agent): The generated prompt runs in a clean context window, producing high-quality implementation on the first try.
 
@@ -94,7 +94,7 @@ The `/create-prompt` and `/run-prompt` commands are available everywhere. Each p
 
 ### Advanced: Multiple Prompts
 
-For complex projects, Claude may break your request into multiple prompts:
+For complex projects, OpenCode may break your request into multiple prompts:
 
 **Parallel execution** (independent tasks):
 
@@ -174,7 +174,7 @@ With OpenCode, token usage doesn't matter. What matters is **context quality**.
 
 4. **Trust the system** - It asks "what to avoid and why", defines success criteria, and includes verification steps you might forget
 
-5. **Use parallel execution** - If Claude detects independent tasks, running them in parallel saves time without token concerns
+5. **Use parallel execution** - If OpenCode detects independent tasks, running them in parallel saves time without token concerns
 
 ## How It Works Under the Hood
 

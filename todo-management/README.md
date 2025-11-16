@@ -139,7 +139,7 @@ Each project maintains its own todo list. The commands are global, the todos are
 
 - Use `/add-to-todos` liberally - capture anything you might revisit
 - Include specific line numbers when you find them
-- The structured format ensures Claude has enough context later
+- The structured format ensures OpenCode has enough context later
 - Todos are removed when work begins - if incomplete, re-add with new context
 - Empty sections are automatically cleaned up
 
