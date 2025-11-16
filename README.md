@@ -1,48 +1,30 @@
-# TÂCHES Prompts
+# TÂCHES Prompts (OpenCode Port)
 
-Slash commands and prompt systems for Claude Code.
+A port of the TÂCHES slash commands and prompt systems, adapted to work with [OpenCode](https://opencode.ai/) instead of Claude Code.
 
-## Quick Start
+## Port Information
+
+This is an unofficial port of the `glittercowboy/taches-cc-prompts` repository. All credit for the original prompts, architecture, and documentation belongs to the original author, TÂCHES.
+
+This fork simply updates the `run-prompt.md` agent and `allowed-tools` to be compatible with OpenCode's sub-agent and tool system.
+
+**Original Repository:** [https://github.com/glittercowboy/taches-cc-prompts](https://github.com/glittercowboy/taches-cc-prompts)
+
+## Quick Start (for OpenCode)
 
 ```bash
-# Clone the repo
-git clone https://github.com/yourusername/taches-cc-prompts.git
-cd taches-cc-prompts
+# Clone this repo
+git clone [https://github.com/stephenschoettler/taches-opencode-prompts.git](https://github.com/stephenschoettler/taches-opencode-prompts.git)
+cd taches-opencode-prompts
+
+# Create the OpenCode command directory (if it doesn't exist)
+mkdir -p ~/.config/opencode/command/
 
 # Install meta-prompting
-cp meta-prompting/*.md ~/.claude/commands/
+cp meta-prompting/*.md ~/.config/opencode/command/
 
 # Install todo management
-cp todo-management/*.md ~/.claude/commands/
+cp todo-management/*.md ~/.config/opencode/command/
 
 # Install context handoff
-cp context-handoff/*.md ~/.claude/commands/
-```
-
-All commands work globally. Project-specific data (prompts, todos) lives in each project's working directory.
-
-## Available Prompts
-
-### [Meta-Prompting](./meta-prompting/)
-
-A systematic approach to building complex software by delegating prompt engineering to Claude itself. Instead of telling Claude what to do, you tell Claude what you want, and it figures out how to ask itself to do it.
-
-Perfect for complex refactoring, new features, and multi-step tasks where you want rigorous specifications without manually crafting detailed prompts.
-
-### [Todo Management](./todo-management/)
-
-Capture ideas mid-conversation without losing focus. When you spot a bug, think of a feature, or notice something to refactor - but don't want to derail your current work - `/add-to-todos` captures it with full context. Later, `/check-todos` resumes exactly where you left off.
-
-Perfect for staying focused while building a backlog of improvements, features, and research tasks that won't be forgotten.
-
-### [Context Handoff](./context-handoff/)
-
-Continue work in a fresh context without losing progress. `/whats-next` analyzes the current conversation and creates a structured handoff document with what was completed, what remains, and critical context. Reference it in your next chat to resume seamlessly.
-
-Perfect for when your context is getting full, you need a clean slate, or you're switching between tasks and want to preserve exactly where you left off.
-
----
-
-More prompts coming soon.
-
-—TÂCHES
+cp context-handoff/*.md ~/.config/opencode/command/

@@ -1,7 +1,7 @@
 ---
 name: whats-next
 description: Analyze the current conversation and create a handoff document for continuing this work in a fresh context
-allowed-tools: [bash, view, str_replace, create_file, web_search, web_fetch]
+allowed-tools: [Bash, Read, Edit, Write, web_search, web_fetch]
 ---
 
 Analyze the current conversation and create a handoff document for continuing this work in a fresh context.

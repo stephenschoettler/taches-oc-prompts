@@ -57,7 +57,7 @@ For each prompt number/name:
 <single_prompt>
 
 1. Read the complete contents of the prompt file
-2. Delegate as sub-task using Task tool with subagent_type="general-purpose"
+ 2. Delegate as sub-task using task tool with subagent_type="general"
 3. Wait for completion
 4. Archive prompt to `./prompts/completed/` with metadata
 5. Return results
@@ -66,13 +66,13 @@ For each prompt number/name:
 <parallel_execution>
 
 1. Read all prompt files
-2. **Spawn all Task tools in a SINGLE MESSAGE** (this is critical for parallel execution):
-   <example>
-   Use Task tool for prompt 005
-   Use Task tool for prompt 006
-   Use Task tool for prompt 007
-   (All in one message with multiple tool calls)
-   </example>
+ 2. **Spawn all task tools in a SINGLE MESSAGE** (this is critical for parallel execution):
+    <example>
+    Use task tool for prompt 005
+    Use task tool for prompt 006
+    Use task tool for prompt 007
+    (All in one message with multiple tool calls)
+    </example>
 3. Wait for ALL to complete
 4. Archive all prompts with metadata
 5. Return consolidated results
@@ -81,11 +81,11 @@ For each prompt number/name:
 <sequential_execution>
 
 1. Read first prompt file
-2. Spawn Task tool for first prompt
+ 2. Spawn task tool for first prompt
 3. Wait for completion
 4. Archive first prompt
 5. Read second prompt file
-6. Spawn Task tool for second prompt
+ 6. Spawn task tool for second prompt
 7. Wait for completion
 8. Archive second prompt
 9. Repeat for remaining prompts
@@ -139,8 +139,8 @@ By delegating to a sub-task, the actual implementation work happens in fresh con
 
 <critical_notes>
 
-- For parallel execution: ALL Task tool calls MUST be in a single message
-- For sequential execution: Wait for each Task to complete before starting next
+- For parallel execution: ALL task tool calls MUST be in a single message
+- For sequential execution: Wait for each task to complete before starting next
 - Archive prompts only after successful completion
 - If any prompt fails, stop sequential execution and report error
 - Provide clear, consolidated results for multiple prompt execution
