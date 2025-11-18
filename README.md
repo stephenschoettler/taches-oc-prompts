@@ -34,12 +34,18 @@ Commands install globally to `~/.claude/commands/`. Skills install to `~/.claude
 
 ## Commands
 
-### Workflow
+### Meta-Prompting
 
 - [`/create-prompt`](./commands/create-prompt.md) - Generate optimized prompts with XML structure
 - [`/run-prompt`](./commands/run-prompt.md) - Execute saved prompts in sub-agent contexts
+
+### Todo Management
+
 - [`/add-to-todos`](./commands/add-to-todos.md) - Capture tasks with full context
 - [`/check-todos`](./commands/check-todos.md) - Resume work on captured tasks
+
+### Context Handoff
+
 - [`/whats-next`](./commands/whats-next.md) - Create handoff document for fresh context
 
 ### Create Extensions
@@ -52,12 +58,17 @@ Wrapper commands that invoke the skills below.
 - [`/create-subagent`](./commands/create-subagent.md) - Create a new subagent
 - [`/create-hook`](./commands/create-hook.md) - Create a new hook
 
-### Maintain Extensions
+### Audit Extensions
 
-- [`/heal-skill`](./commands/heal-skill.md) - Fix skills based on execution issues
+Invoke auditor subagents.
+
 - [`/audit-skill`](./commands/audit-skill.md) - Audit skill for best practices
 - [`/audit-slash-command`](./commands/audit-slash-command.md) - Audit command for best practices
 - [`/audit-subagent`](./commands/audit-subagent.md) - Audit subagent for best practices
+
+### Self-Improvement
+
+- [`/heal-skill`](./commands/heal-skill.md) - Fix skills based on execution issues
 
 ## Agents
 
