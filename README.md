@@ -80,92 +80,92 @@ Invoke auditor subagents.
 
 Apply mental frameworks to decisions and problems.
 
-- `/consider:pareto` - Apply 80/20 rule to focus on what matters
-- `/consider:first-principles` - Break down to fundamentals and rebuild
-- `/consider:inversion` - Solve backwards (what guarantees failure?)
-- `/consider:second-order` - Think through consequences of consequences
-- `/consider:5-whys` - Drill to root cause
-- `/consider:occams-razor` - Find simplest explanation
-- `/consider:one-thing` - Identify highest-leverage action
-- `/consider:swot` - Map strengths, weaknesses, opportunities, threats
-- `/consider:eisenhower-matrix` - Prioritize by urgent/important
-- `/consider:10-10-10` - Evaluate across time horizons
-- `/consider:opportunity-cost` - Analyze what you give up
-- `/consider:via-negativa` - Improve by removing
+- [`/consider:pareto`](./commands/consider/pareto.md) - Apply 80/20 rule to focus on what matters
+- [`/consider:first-principles`](./commands/consider/first-principles.md) - Break down to fundamentals and rebuild
+- [`/consider:inversion`](./commands/consider/inversion.md) - Solve backwards (what guarantees failure?)
+- [`/consider:second-order`](./commands/consider/second-order.md) - Think through consequences of consequences
+- [`/consider:5-whys`](./commands/consider/5-whys.md) - Drill to root cause
+- [`/consider:occams-razor`](./commands/consider/occams-razor.md) - Find simplest explanation
+- [`/consider:one-thing`](./commands/consider/one-thing.md) - Identify highest-leverage action
+- [`/consider:swot`](./commands/consider/swot.md) - Map strengths, weaknesses, opportunities, threats
+- [`/consider:eisenhower-matrix`](./commands/consider/eisenhower-matrix.md) - Prioritize by urgent/important
+- [`/consider:10-10-10`](./commands/consider/10-10-10.md) - Evaluate across time horizons
+- [`/consider:opportunity-cost`](./commands/consider/opportunity-cost.md) - Analyze what you give up
+- [`/consider:via-negativa`](./commands/consider/via-negativa.md) - Improve by removing
 
 ### Writing
 
 Generate content by type.
 
-- `/write:email` - Any tone, any purpose
-- `/write:blog` - Share ideas, teach, tell stories
-- `/write:docs` - READMEs, guides, API docs
-- `/write:spec` - Technical specifications
-- `/write:tutorial` - Step-by-step teaching
-- `/write:pitch` - Explain your thing in 30 seconds
-- `/write:thread` - X/Twitter threads
-- `/write:reflection` - Process experiences, extract lessons
+- [`/write:email`](./commands/write/email.md) - Any tone, any purpose
+- [`/write:blog`](./commands/write/blog.md) - Share ideas, teach, tell stories
+- [`/write:docs`](./commands/write/docs.md) - READMEs, guides, API docs
+- [`/write:spec`](./commands/write/spec.md) - Technical specifications
+- [`/write:tutorial`](./commands/write/tutorial.md) - Step-by-step teaching
+- [`/write:pitch`](./commands/write/pitch.md) - Explain your thing in 30 seconds
+- [`/write:thread`](./commands/write/thread.md) - X/Twitter threads
+- [`/write:reflection`](./commands/write/reflection.md) - Process experiences, extract lessons
 
 ### Planning
 
 Structure work at any scale.
 
-- `/plan:brief` - Problem, goals, constraints, success criteria
-- `/plan:breakdown` - Break big things into smaller tasks
-- `/plan:sprint` - Sprint-sized work with acceptance criteria
-- `/plan:project` - Full project plan with phases and milestones
-- `/plan:mvp` - Cut to minimum viable scope
+- [`/plan:brief`](./commands/plan/brief.md) - Problem, goals, constraints, success criteria
+- [`/plan:breakdown`](./commands/plan/breakdown.md) - Break big things into smaller tasks
+- [`/plan:sprint`](./commands/plan/sprint.md) - Sprint-sized work with acceptance criteria
+- [`/plan:project`](./commands/plan/project.md) - Full project plan with phases and milestones
+- [`/plan:mvp`](./commands/plan/mvp.md) - Cut to minimum viable scope
 
 ### Research
 
 Investigate and analyze.
 
-- `/research:technical` - How to implement something
-- `/research:options` - Compare alternatives side-by-side
-- `/research:competitive` - Who else does this, how
-- `/research:feasibility` - Can we actually do this?
-- `/research:landscape` - Map tools, players, trends, gaps
-- `/research:open-source` - Find libraries and tools
-- `/research:history` - What's been tried before
-- `/research:deep-dive` - Comprehensive investigation
+- [`/research:technical`](./commands/research/technical.md) - How to implement something
+- [`/research:options`](./commands/research/options.md) - Compare alternatives side-by-side
+- [`/research:competitive`](./commands/research/competitive.md) - Who else does this, how
+- [`/research:feasibility`](./commands/research/feasibility.md) - Can we actually do this?
+- [`/research:landscape`](./commands/research/landscape.md) - Map tools, players, trends, gaps
+- [`/research:open-source`](./commands/research/open-source.md) - Find libraries and tools
+- [`/research:history`](./commands/research/history.md) - What's been tried before
+- [`/research:deep-dive`](./commands/research/deep-dive.md) - Comprehensive investigation
 
 ### Explanation
 
 Teach and communicate concepts.
 
-- `/explain:eli5` - Simple language, no jargon
-- `/explain:analogy` - Bridge unfamiliar to familiar
-- `/explain:socratic` - Questions that lead to understanding
-- `/explain:visual` - Diagrams, ASCII art, charts
-- `/explain:layers` - Progressive disclosure, surface to deep
-- `/explain:story` - Narrative with characters and conflict
-- `/explain:debate` - Steelman both sides
-- `/explain:misconceptions` - Clear up what people get wrong
-- `/explain:implications` - Draw out consequences
-- `/explain:reverse` - Start with conclusion, work backwards
-- `/explain:adversarial` - Attack to find weaknesses
-- `/explain:first-contact` - Zero cultural context
+- [`/explain:eli5`](./commands/explain/eli5.md) - Simple language, no jargon
+- [`/explain:analogy`](./commands/explain/analogy.md) - Bridge unfamiliar to familiar
+- [`/explain:socratic`](./commands/explain/socratic.md) - Questions that lead to understanding
+- [`/explain:visual`](./commands/explain/visual.md) - Diagrams, ASCII art, charts
+- [`/explain:layers`](./commands/explain/layers.md) - Progressive disclosure, surface to deep
+- [`/explain:story`](./commands/explain/story.md) - Narrative with characters and conflict
+- [`/explain:debate`](./commands/explain/debate.md) - Steelman both sides
+- [`/explain:misconceptions`](./commands/explain/misconceptions.md) - Clear up what people get wrong
+- [`/explain:implications`](./commands/explain/implications.md) - Draw out consequences
+- [`/explain:reverse`](./commands/explain/reverse.md) - Start with conclusion, work backwards
+- [`/explain:adversarial`](./commands/explain/adversarial.md) - Attack to find weaknesses
+- [`/explain:first-contact`](./commands/explain/first-contact.md) - Zero cultural context
 
 ### Extraction
 
 Pull patterns from content.
 
-- `/extract:spec` - Extract platform-agnostic specification from codebase
-- `/extract:ui` - Extract UI/UX design patterns from codebase
+- [`/extract:spec`](./commands/extract/spec.md) - Extract platform-agnostic specification from codebase
+- [`/extract:ui`](./commands/extract/ui.md) - Extract UI/UX design patterns from codebase
 
 ### Summarization
 
 Condense information.
 
-- `/summarize:tldr` - 2-3 sentences max
-- `/summarize:key-points` - 5-7 most important points
-- `/summarize:bullet` - Hierarchical bullet points
-- `/summarize:quotes` - Extract best quotes verbatim
-- `/summarize:timeline` - Chronological events
-- `/summarize:technical` - Preserve implementation details
-- `/summarize:video` - YouTube transcript to insights
-- `/summarize:teach-me` - Summarize as if teaching
-- `/summarize:for-later` - Enough context to reconstruct understanding
+- [`/summarize:tldr`](./commands/summarize/tldr.md) - 2-3 sentences max
+- [`/summarize:key-points`](./commands/summarize/key-points.md) - 5-7 most important points
+- [`/summarize:bullet`](./commands/summarize/bullet.md) - Hierarchical bullet points
+- [`/summarize:quotes`](./commands/summarize/quotes.md) - Extract best quotes verbatim
+- [`/summarize:timeline`](./commands/summarize/timeline.md) - Chronological events
+- [`/summarize:technical`](./commands/summarize/technical.md) - Preserve implementation details
+- [`/summarize:video`](./commands/summarize/video.md) - YouTube transcript to insights
+- [`/summarize:teach-me`](./commands/summarize/teach-me.md) - Summarize as if teaching
+- [`/summarize:for-later`](./commands/summarize/for-later.md) - Enough context to reconstruct understanding
 
 ## Agents
 
