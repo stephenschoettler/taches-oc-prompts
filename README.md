@@ -4,7 +4,7 @@ A port of the TÂCHES slash commands and prompt systems, adapted to work with [O
 
 ## Port Information
 
-This is an unofficial port of the `glittercowboy/taches-cc-prompts` repository. All credit for the original prompts, architecture, and documentation belongs to the original author, TÂCHES.
+This is an official community port of the `glittercowboy/taches-cc-prompts` repository. All credit for the original prompts, architecture, and documentation belongs to the original author, TÂCHES.
 
 This fork updates the agents, tools, and paths to be compatible with Opencode's sub-agent and tool system.
 
